@@ -57,3 +57,4 @@ python solution/solution.py  # reference
 | 01 Agentic Architecture & Orchestration | 1.2 Hub-and-spoke research coordinator | Solution verified (PASS; `--narrow` demo FAILs as intended); starter ready |
 | 01 Agentic Architecture & Orchestration | 1.3 Subagent invocation & context passing | Solution verified (PASS; `--no-context` demo FAILs as intended); starter ready |
 | 01 Agentic Architecture & Orchestration | 1.4 Workflow enforcement & handoff | Solution verified (5/5 PASS; `--prompt-only` FAILs in ~half the runs); starter ready |
+| 01 Agentic Architecture & Orchestration | 1.5 Tool hooks (Pre/PostToolUse) | Solution verified (7/7 PASS; `--no-hooks` FAILs 2/3); starter ready |

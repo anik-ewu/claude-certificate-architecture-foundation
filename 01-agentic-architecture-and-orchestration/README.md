@@ -10,6 +10,7 @@ This domain covers how an agent actually runs: the loop that drives it, how cont
 | 1.2 | Hub-and-spoke research coordinator (subagents, decomposition, refinement) | [`1.2-hub-and-spoke-coordinator/`](1.2-hub-and-spoke-coordinator/) | ⬜ To do |
 | 1.3 | Subagent invocation & context passing (`Task` tool, allowed tools, parallel spawns) | [`1.3-subagent-invocation-and-context/`](1.3-subagent-invocation-and-context/) | ⬜ To do |
 | 1.4 | Multi-step workflows: enforcement & handoff (prerequisite gates, structured handoff) | [`1.4-workflow-enforcement-and-handoff/`](1.4-workflow-enforcement-and-handoff/) | ⬜ To do |
+| 1.5 | Tool hooks: PreToolUse interception & PostToolUse normalization | [`1.5-tool-hooks/`](1.5-tool-hooks/) | ⬜ To do |
 
 More topics from this domain get added here as new subfolders (`1.3-…`, `1.4-…`), each with its own `README.md` (tasks), `starter.py` (your work), and `solution/` (reference to check against).
 
