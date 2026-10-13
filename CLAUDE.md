@@ -56,3 +56,4 @@ python solution/solution.py  # reference
 | 01 Agentic Architecture & Orchestration | 1.1 Agentic loop (tools + `stop_reason`, cap 20) | Solution done and verified; the user is working on `starter.py` |
 | 01 Agentic Architecture & Orchestration | 1.2 Hub-and-spoke research coordinator | Solution verified (PASS; `--narrow` demo FAILs as intended); starter ready |
 | 01 Agentic Architecture & Orchestration | 1.3 Subagent invocation & context passing | Solution verified (PASS; `--no-context` demo FAILs as intended); starter ready |
+| 01 Agentic Architecture & Orchestration | 1.4 Workflow enforcement & handoff | Solution verified (5/5 PASS; `--prompt-only` FAILs in ~half the runs); starter ready |
