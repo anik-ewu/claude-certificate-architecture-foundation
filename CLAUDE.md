@@ -33,6 +33,7 @@ NN-<exam-domain-slug>/                  one folder per exam section (e.g. 01-age
 - Put the exam angle in each task: which pattern is right and which is the anti-pattern.
 - Where a topic can fail in an exam-relevant way, add a demo flag (e.g. `--narrow`) that reproduces the failure.
 - Haiku is less reliable than larger models. When it misbehaves, fix it with **code-side validation** (check the output and send specific feedback), not longer prompts, and write the lesson into the topic README ("Lessons from building this").
+- **Just a topic number** (e.g. "2.1"): build that topic folder per the structure below from the official exam-guide task statement, verify the solution against the API, then commit and push. No need to ask what the tasks are.
 - Starter files: give the boilerplate (schemas, printing, report writing), and leave TODOs only for the concept being tested.
 
 ## Setup / run
@@ -54,3 +55,4 @@ python solution/solution.py  # reference
 |---|---|---|
 | 01 Agentic Architecture & Orchestration | 1.1 Agentic loop (tools + `stop_reason`, cap 20) | Solution done and verified; the user is working on `starter.py` |
 | 01 Agentic Architecture & Orchestration | 1.2 Hub-and-spoke research coordinator | Solution verified (PASS; `--narrow` demo FAILs as intended); starter ready |
+| 01 Agentic Architecture & Orchestration | 1.3 Subagent invocation & context passing | Solution verified (PASS; `--no-context` demo FAILs as intended); starter ready |

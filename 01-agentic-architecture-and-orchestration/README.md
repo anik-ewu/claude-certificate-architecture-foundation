@@ -8,6 +8,7 @@ This domain covers how an agent actually runs: the loop that drives it, how cont
 |---|-------|--------|--------|
 | 1.1 | The agentic loop (tool use + `stop_reason`) | [`1.1-agentic-loop/`](1.1-agentic-loop/) | ⬜ To do |
 | 1.2 | Hub-and-spoke research coordinator (subagents, decomposition, refinement) | [`1.2-hub-and-spoke-coordinator/`](1.2-hub-and-spoke-coordinator/) | ⬜ To do |
+| 1.3 | Subagent invocation & context passing (`Task` tool, allowed tools, parallel spawns) | [`1.3-subagent-invocation-and-context/`](1.3-subagent-invocation-and-context/) | ⬜ To do |
 
 More topics from this domain get added here as new subfolders (`1.3-…`, `1.4-…`), each with its own `README.md` (tasks), `starter.py` (your work), and `solution/` (reference to check against).
 
